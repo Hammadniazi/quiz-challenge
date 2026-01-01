@@ -55,34 +55,6 @@ quiz-challenge/
 └── README.md       # Project documentation
 ```
 
-## How It Works
-
-1. **Start**: The quiz automatically loads the first question
-2. **Answer**: Click on one of the four answer options
-3. **Feedback**: Correct answers turn green, incorrect ones turn red
-4. **Next**: Click "Next" to move to the next question
-5. **Score**: At the end, see your total score
-6. **Replay**: Click "Play Again" to restart the quiz
-
-## Customization
-
-Want to add your own questions? Edit the `questions` array in `script.js`:
-
-```javascript
-const questions = [
-  {
-    question: "Your question here?",
-    answer: [
-      { test: "Option 1", correct: false },
-      { test: "Option 2", correct: true },
-      { test: "Option 3", correct: false },
-      { test: "Option 4", correct: false },
-    ],
-  },
-  // Add more questions...
-];
-```
-
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
